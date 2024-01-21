@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    height: 20rem;
+}
+
+.titulo{
+    padding-bottom: 15px;
+}
+
+.stickers{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h3, #btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
