@@ -1,12 +1,12 @@
 const img = document.querySelector('img')
-let bandera = true
+let haveBorder = false
 
 img.addEventListener('click', function () {
-    if(bandera === true){
+    if(haveBorder === false){
     img.style.border = '2px solid red'
-    bandera = false
+    haveBorder = true
 } else{
     img.style.border = 'none'
-    bandera = true
+    haveBorder = false
 }
 })
